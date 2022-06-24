@@ -625,10 +625,10 @@ body {
 .m_h3_title {
     border-radius: 1em;
     margin-top: 2em;
-    background-color: #FFFFFF;
+    background-color: #C6C6C6;
     color: #000000;
-    -webkit-box-shadow: 0px 0px 14px -1px #00000073;
-    box-shadow: 0px 0px 14px -1px #00000073;
+    -webkit-box-shadow: 0px 0px 30px -10px #00000073;
+    box-shadow: 0px 0px 30px -10px #00000073;
     font-weight: normal;
     width: 90%;
     margin-left: auto;
