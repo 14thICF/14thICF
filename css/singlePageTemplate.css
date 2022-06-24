@@ -1927,7 +1927,7 @@ label.error {
 
   }
 .gallery {
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -2000,6 +2000,7 @@ label.error {
 }
 .gallery {
     text-align: center;
+    width: 80%;
 }
 
 
