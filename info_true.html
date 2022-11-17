@@ -22,6 +22,7 @@
 		<script src="js/script.js"></script>
 		<script src="js/sc.js"></script>
 		<script src="js/hide.js"></script>
+		<script src="js/window.js"></script>
 	</head>
 	<body>
 		<!-- Main Container -->
@@ -76,18 +77,165 @@
 				<div class="gallery" align="center">
 					<h4 align="center">ICFを予約済みの方は、こちらのページで日程、お知らせ、注意事項をご確認いただけます。</h4>
 					<div class="center_box">
+					<a class="button2" href="#ticket">チケットの詳細</a>
 					<a class="button2" href="#sc">スケジュール表</a>
 					<a class="button2" href="#notice">講師、実行委員からのお知らせ</a>
 					<a class="button2" href="#covid">感染症対策ガイドライン</a>
 					</div>
 				</div>
 			</section>
+			<section class="section_box" id="ticket">
+				<div class="box">
+				<h2 class="section_title3">チケットの詳細</h2>
+				<div class="event">
+					<div class="black-frame">
+						<h2 class="event_title">各チケットとご参加いただける講座</h2>
+						<p>それぞれのチケットでご参加可能なイベントとご参加いただけないイベントがございます。あらかじめこちらでお確かめの上、チケットをお買い求めください。</p>
+						<table>
+							<thead>
+								<tr>
+									<th scope="non">
+										<center>チケット</center>
+									</th>
+									<th scope="col">
+										<p><center>各種クラス<sub>※</sub></center></p>
+									</th>
+									<th scope="col">
+										<center>レクリエーション・閉会式</center>
+									</th>
+									<th scope="col">
+										<p><center>学生ギャザリング</center></p>
+									</th>
+									<th scope="col">
+										<center>有志ライブ</center>
+									</th>
+									<th scope="col">
+										<center>講師ライブ</center>
+									</th>
+									<th scope="col">
+										<center>ケーリー</center>
+									</th>
+								</tr>
+							</thead>
+							<tbody class="black">
+								<tr>
+									<th>全日程チケット</th>
+									<td data-label="各種クラス" class="txt">
+										<p class="table_inner"><center>〇</center></p>
+									</td>
+									<td data-label="レクリエーション・閉会式" class="txt">
+										<p class="table_inner"><center>〇</center></p>
+									</td>
+									<td data-label="学生ギャザリング" class="txt">
+										<p class="table_inner"><center>〇</center></p>
+									</td>
+									<td data-label="有志ライブ" class="txt">
+										<p class="table_inner"><center>〇</center></p>
+									</td>
+									<td data-label="講師ライブ" class="txt">
+										<p class="table_inner"><center>〇</center></p>
+									</td>
+									<td data-label="ケーリー" class="txt">
+										<p class="table_inner"><center>〇</center></p>
+									</td>
+								</tr>
+								<tr>
+									<th>1dayパス</th>
+									<td data-label="各種クラス" class="txt">
+										<p class="table_inner"><center>〇</center></p>
+									</td>
+									<td data-label="レクリエーション・閉会式" class="txt">
+										<p class="table_inner"><center>〇</center></p>
+									</td>
+									<td data-label="学生ギャザリング" class="txt">
+										<p class="table_inner"><center>〇</center></p>
+									</td>
+									<td data-label="有志ライブ" class="txt">
+										<p class="table_inner"><center>〇</center></p>
+									</td>
+									<td data-label="講師ライブ" class="txt">
+										<p class="table_inner"><center>〇</center></p>
+									</td>
+									<td data-label="ケーリー" class="txt">
+										<p class="table_inner"><center>〇</center></p>
+									</td>
+								</tr>
+								<tr>
+									<th>講座・イベントチケット</th>
+									<td data-label="各種クラス" class="txt">
+										<p class="table_inner"><center>〇</center></p>
+									</td>
+									<td data-label="レクリエーション・閉会式" class="txt">
+										<p class="table_inner"><center>〇</center></p>
+									</td>
+									<td data-label="学生ギャザリング" class="txt">
+										<p class="table_inner"><center>〇</center></p>
+									</td>
+									<td data-label="有志ライブ" class="txt">
+										<p class="table_inner"><center>×</center></p>
+									</td>
+									<td data-label="講師ライブ" class="txt">
+										<p class="table_inner"><center>×</center></p>
+									</td>
+									<td data-label="ケーリー" class="txt">
+										<p class="table_inner"><center>×</center></p>
+									</td>
+								</tr>
+								<tr>
+									<th>講師ライブチケット</th>
+									<td data-label="各種クラス" class="txt">
+										<p class="table_inner"><center>×</center></p>
+									</td>
+									<td data-label="レクリエーション・閉会式" class="txt">
+										<p class="table_inner"><center>×</center></p>
+									</td>
+									<td data-label="学生ギャザリング" class="txt">
+										<p class="table_inner"><center>×</center></p>
+									</td>
+									<td data-label="有志ライブ" class="txt">
+										<p class="table_inner"><center>〇</center></p>
+									</td>
+									<td data-label="講師ライブ" class="txt">
+										<p class="table_inner"><center>〇</center></p>
+									</td>
+									<td data-label="ケーリー" class="txt">
+										<p class="table_inner"><center>×</center></p>
+									</td>
+								</tr>
+								<tr>
+									<th>ケーリーチケット</th>
+									<td data-label="各種クラス" class="txt">
+										<p class="table_inner"><center>×</center></p>
+									</td>
+									<td data-label="レクリエーション・閉会式" class="txt">
+										<p class="table_inner"><center>×</center></p>
+									</td>
+									<td data-label="学生ギャザリング" class="txt">
+										<p class="table_inner"><center>×</center></p>
+									</td>
+									<td data-label="有志ライブ" class="txt">
+										<p class="table_inner"><center>×</center></p>
+									</td>
+									<td data-label="講師ライブ" class="txt">
+										<p class="table_inner"><center>×</center></p>
+									</td>
+									<td data-label="ケーリー" class="txt">
+										<p class="table_inner"><center>〇</center></p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<p>※各種クラスには、「楽器クラス」、「テーマ別クラス」、「ダンスクラス」が含まれます。</p>
+					</div>
+				</div>
+			</div>
+			</section>
 			<section class="section_box" id="sc">
 				<div class="box">
 				<h2 class="section_title3">スケジュール表</h2>
 				<div class="event">
 					<div class="black-frame">
-						<h2 class="event_title">前泊セッション | 2022/3/9(Wed)</h2>
+						<h2 class="event_title">前泊セッション | 2023/3/7(火曜日)</h2>
 						<table>
 							<thead>
 								<tr>
@@ -104,9 +252,9 @@
 							</thead>
 							<tbody class="black">
 								<tr>
-									<th>18:10~21:50</th>
+									<th>19:00~21:30</th>
 									<td data-label="項目" class="txt">
-										<p class="table_inner">前泊セッション、ダンス</p>
+										<p class="table_inner">前泊セッション</p>
 									</td>
 									<td data-label="説明" class="txt">
 										<p class="table_inner">遠方から来る多くの人とセッションをしましょう！</p>
@@ -114,7 +262,7 @@
 								</tr>
 							</tbody>
 						</table>
-						<h2 class="event_title">1日目｜2022/3/10</h2>
+						<h2 class="event_title">1日目｜2022/3/8</h2>
 						<table id="day1">
 							<thead>
 								<tr>
@@ -125,29 +273,49 @@
 							</thead>
 							<tbody class="black">
 								<tr>
-									<th>10:00~11:40</th>
+									<th>10:00－11:40</th>
 									<td data-label="項目" class="txt">
-										<p class="table_inner">楽器クラス</p>
+										<p class="table_inner">楽器クラスI</p>
 									</td>
 									<td data-label="説明" class="txt">
 										<p class="table_inner">
-											<a id="openModal" href="#">この時間帯のクラス一覧</a>
+											<a id="openModal" href="#day1">この時間帯のクラス一覧</a>
 										</p>
 									</td>
 								</tr>
 								<tr>
-									<th>13:30~16:50</th>
+									<th>11:40－13:00</th>
 									<td data-label="項目" class="txt">
-										<p class="table_inner">ダンスクラス</p>
+										<p class="table_inner">昼休憩</p>
 									</td>
 									<td data-label="説明" class="txt">
-										<p class="table_inner">ダンスクラスA, ダンスクラスB</p>
+										<p class="table_inner">昼食は事前予約制です</p>
 									</td>
 								</tr>
 								<tr>
-									<th>18:10~21:50</th>
+									<th>13:00－14:40</th>
 									<td data-label="項目" class="txt">
-										<p class="table_inner">セッション＆交流会</p>
+										<p class="table_inner">楽器クラスII</p>
+									</td>
+									<td data-label="説明" class="txt">
+										<p class="table_inner">
+											<a id="openModal1" href="#day1">この時間帯のクラス一覧</a>
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<th>15:00－16:40</th>
+									<td data-label="項目" class="txt">
+										<p class="table_inner">レクリエーション</p>
+									</td>
+									<td data-label="説明" class="txt">
+										<p class="table_inner">学生間交流を楽しもう！</p>
+									</td>
+								</tr>
+								<tr>
+									<th>16:40－22:00</th>
+									<td data-label="項目" class="txt">
+										<p class="table_inner">部屋自由利用</p>
 									</td>
 									<td data-label="説明" class="txt">
 										<p class="table_inner">学生間交流を楽しもう！</p>
@@ -155,7 +323,7 @@
 								</tr>
 							</tbody>
 						</table>
-						<h2 class="event_title">2日目 | 2022/3/11(Fri)</h2>
+						<h2 class="event_title">2日目 | 2022/3/9</h2>
 						<table id="day2" style="margin-bottom: 2em;">
 							<thead>
 								<tr>
@@ -172,36 +340,121 @@
 							</thead>
 							<tbody class="black">
 								<tr>
-									<th>10:00~11:40</th>
+									<th>10:00－11:40</th>
 									<td data-label="項目" class="txt">
 										<p class="table_inner">楽器・テーマ別クラス</p>
 									</td>
 									<td data-label="説明" class="txt">
 										<p class="table_inner">
-											<a id="openModal2" href="#">この時間帯のクラス一覧</a>
+											<a id="openModal2" href="#day2">この時間帯のクラス一覧</a>
 										</p>
 									</td>
 								</tr>
 								<tr>
-									<th>13:40~16:00</th>
+									<th>11:40－13:00</th>
 									<td data-label="項目" class="txt">
-										<p class="table_inner">講師ライブ＆有志ライブ、記念撮影</p>
+										<p class="table_inner">昼休憩</p>
+									</td>
+									<td data-label="説明" class="txt">
+										<p class="table_inner">昼食は事前予約制です</p>
+									</td>
+								</tr>
+								<tr>
+									<th>13:00－14:40</th>
+									<td data-label="項目" class="txt">
+										<p class="table_inner">学生ギャザリング</p>
+									</td>
+									<td data-label="説明" class="txt">
+										<p class="table_inner">学生同士で音楽談義を楽しみましょう！
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<th>15:00－16:40</th>
+									<td data-label="項目" class="txt">
+										<p class="table_inner">有志ライブ</p>
+									</td>
+									<td data-label="説明" class="txt">
+										<p class="table_inner">学生によるライブです！
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<th>18:00－21:00</th>
+									<td data-label="項目" class="txt">
+										<p class="table_inner">講師ライブ</p>
+									</td>
+									<td data-label="説明" class="txt">
+										<p class="table_inner">ICF講師陣の代表による演奏です！
+										</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<h2 class="event_title">3日目 | 2022/3/10</h2>
+						<table id="day2" style="margin-bottom: 2em;">
+							<thead>
+								<tr>
+									<th scope="non">
+										<center>時間</center>
+									</th>
+									<th scope="col">
+										<center>項目</center>
+									</th>
+									<th scope="non">
+										<center>説明</center>
+									</th>
+								</tr>
+							</thead>
+							<tbody class="black">
+								<tr>
+									<th>10:00－11:40</th>
+									<td data-label="項目" class="txt">
+										<p class="table_inner">ダンスクラス</p>
 									</td>
 									<td data-label="説明" class="txt">
 										<p class="table_inner">
-											<a href="#">講師ライブ、学生ライブの詳細</a>
+											<a id="openModal2" href="#day2">ケーリーに向けてダンスの練習！初心者歓迎です！！</a>
 										</p>
 									</td>
 								</tr>
 								<tr>
-									<th>18:10~21:50</th>
+									<th>11:40－13:00</th>
 									<td data-label="項目" class="txt">
-										<p class="table_inner">ケーリー by
-											<a href="http://toyota-ceiliband.com">Toyota Ceili Band</a>
-										</p>
+										<p class="table_inner">昼休憩</p>
 									</td>
 									<td data-label="説明" class="txt">
-										<p class="table_inner">Toyota Ceili Bandによるケーリーです。</p>
+										<p class="table_inner">昼食は事前予約制です</p>
+									</td>
+								</tr>
+								<tr>
+									<th>13:00－16:00</th>
+									<td data-label="項目" class="txt">
+										<p class="table_inner">ケーリー</p>
+									</td>
+									<td data-label="説明" class="txt">
+										<p class="table_inner">Toyota Ceili Bandによるケーリーです！
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<th>15:00－16:40</th>
+									<td data-label="項目" class="txt">
+										<p class="table_inner">有志ライブ</p>
+									</td>
+									<td data-label="説明" class="txt">
+										<p class="table_inner">学生によるライブです！
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<th>18:00－21:00</th>
+									<td data-label="項目" class="txt">
+										<p class="table_inner">講師ライブ</p>
+									</td>
+									<td data-label="説明" class="txt">
+										<p class="table_inner">ICF講師陣の代表による演奏です！
+										</p>
 									</td>
 								</tr>
 							</tbody>
@@ -219,7 +472,7 @@
 							<div class="window_bar_in">
 								<div class="window_bar_outer">
 									<div class="window_bar_box">
-										<h1 align="left">一日目楽器クラス</h1>
+										<h1 align="left">楽器クラスI</h1>
 									</div>
 									<div class="window_bar_box">
 										<div id="closeModal" class="closeModal" align="right">×</div>
@@ -231,8 +484,7 @@
 								<div class="window_bar_outer">
 									<a class="button2" href="#fiddle">フィドル</a>
 									<a class="button2" href="#tin">ティンホイッスル</a>
-									<a class="button2" href="#other">伴奏楽器</a>
-									<a class="button2" href="#other">その他の楽器</a>
+									<a class="button2" href="#other">撥弦楽器</a>
 								</div>
 								<hr class="star-primary">
 							</div>
@@ -240,25 +492,101 @@
 						<div class="main_windowouter">
 							<div class="main_window">
 								<div id="fiddle" class="vlink">
-									<h2>フィドル講座</h2>
+									<h2>フィドル</h2>
 								</div>
 								<div style="margin: 3em 0em;">
 									<h3>フィドル初級</h3>
-									<p>担当：権藤 英美里</p>
-									<p>アイリッシュでは定番楽器のフィドル。ヴァイオリンと同じ楽器ですが、少しポイントを変えたら、アイルランドの風景が見えるかも？楽器自体が初めての方はもちろん、楽器は少し弾けるけどアイリッシュは初めてという方もご参加いただける講座となっています。曲を覚えながら、装飾や弓使いも練習しましょう！</p>
-								</div>
-								<div style="margin: 2em 0em;">
-									<h3>フィドル上級</h3>
-									<p>Taka</p>
-									<p>Takaさんがフィドル中～上級者の方に役に立つような情報をがお話ししてくださいます！参加される方で、特に「こういうことを習いたい」、「こんなことを教えてほしい」など具体的にやってみたいことがあれば事前にお知らせください。</p>
+									<p>担当：さいとうともこ</p>
+									<p>今後こちらに詳細が記載されます。</p>
 								</div>
 								<div id="tin" class="vlink">
-									<h2>ティンホイッスル講座</h2>
+									<h2>ティンホイッスル</h2>
 								</div>
 								<div style="margin: 3em 0em;">
-									<h3>ティンホイッスル初級</h3>
-									<p>担当：高梨 菖子</p>
-									<p>この講座では、基本的な装飾のつけ方、メロディーのバリエーションの考え方などを扱います！初心者またはさらにティンホイッスルについて深めたい人どちらも大歓迎です！</p>
+									<h3>ティンホイッスルクラス</h3>
+										<p>担当：hatao</p>
+									<p>今後こちらに詳細が記載されます。</p>
+								</div>
+								<div id="other" class="vlink">
+									<h2>撥弦楽器</h2>
+								</div>
+								<div style="margin: 3em 0em;">
+									<h3>バンジョークラス</h3>
+										<p>担当：岩浅翔</p>
+									<p>今後こちらに詳細が記載されます。</p>
+								</div>
+								<div style="margin: 3em 0em;">
+									<h3>ギタークラス</h3>
+										<p>担当：山本宏史</p>
+									<p>今後こちらに詳細が記載されます。</p>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="modalArea1" class="modalArea">
+				<div id="modalBg" class="modalBg"></div>
+				<div class="modalWrapper">
+					<div class="modalContents">
+						<!-- モーダルの文章 -->
+						<div class="window_bar">
+							<div class="window_bar_in">
+								<div class="window_bar_outer">
+									<div class="window_bar_box">
+										<h1 align="left">楽器クラスII</h1>
+									</div>
+									<div class="window_bar_box">
+										<div id="closeModal1" class="closeModal" align="right">×</div>
+									</div>
+								</div>
+								<div class="window_bar_outer">
+									<p>一日目（13:00－14:40）の楽器クラスII一覧です</p>
+								</div>
+								<div class="window_bar_outer">
+									<a class="button2" href="#fiddle">フィドル</a>
+									<a class="button2" href="#fl">フルート</a>
+									<a class="button2" href="#other">打楽器</a>
+								</div>
+								<hr class="star-primary">
+							</div>
+						</div>
+						<div class="main_windowouter">
+							<div class="main_window">
+								<div id="fiddle" class="vlink">
+									<h2>フィドル</h2>
+								</div>
+								<div style="margin: 2em 0em;">
+									<h3>フィドル初級クラス</h3>
+									<p>小松大</p>
+									<p>今後こちらに詳細が記載されます。</p>
+								</div>
+								<div style="margin: 3em 0em;">
+									<h3>フィドル上級クラス</h3>
+									<p>担当：権藤英美里</p>
+									<p>アイリッシュでは定番楽器のフィドル。ヴァイオリンと同じ楽器ですが、少しポイントを変えたら、アイルランドの風景が見えるかも？楽器自体が初めての方はもちろん、楽器は少し弾けるけどアイリッシュは初めてという方もご参加いただける講座となっています。曲を覚えながら、装飾や弓使いも練習しましょう！</p>
+								</div>
+								<div id="fl" class="vlink">
+									<h2>フルート</h2>
+								</div>
+								<div style="margin: 3em 0em;">
+									<h3>フルート初級クラス</h3>
+									<p>担当：豊田耕三</p>
+									<p>今後こちらに詳細が記載されます。</p>
+								</div>
+								<div style="margin: 3em 0em;">
+									<h3>フルート上級クラス</h3>
+									<p>担当：hatao</p>
+									<p>今後こちらに詳細が記載されます。</p>
+								</div>
+								<div id="other" class="vlink">
+									<h2>打楽器</h2>
+								</div>
+								<div style="margin: 2em 0em;">
+									<h3>バウロンクラス</h3>
+									<p>石崎元弥</p>
+									<p>今後こちらに詳細が記載されます。</p>
 								</div>
 							</div>
 						</div>
@@ -274,46 +602,53 @@
 							<div class="window_bar_in">
 								<div class="window_bar_outer">
 									<div class="window_bar_box">
-										<h1 align="left">二日目楽器・テーマ別クラス</h1>
+										<h1 align="left">楽器・テーマ別クラス</h1>
 									</div>
 									<div class="window_bar_box">
 										<div id="closeModal2" class="closeModal" align="right">×</div>
 									</div>
 								</div>
 								<div class="window_bar_outer">
-									<p>一日目（10:00~11:40）の楽器クラス一覧です</p>
+									<p>二日目（10:00~11:40）の楽器クラス一覧です</p>
 								</div>
 								<div class="window_bar_outer">
-									<a class="button2" href="#fiddle">フィドル</a>
-									<a class="button2" href="#tin">ティンホイッスル</a>
-									<a class="button2" href="#other">伴奏楽器</a>
-									<a class="button2" href="#other">その他の楽器</a>
+									<a class="button2" href="#rhythm">リズム講座</a>
+									<a class="button2" href="#sing">歌</a>
+									<a class="button2" href="#other">打楽器</a>
 								</div>
 								<hr class="star-primary">
 							</div>
 						</div>
 						<div class="main_windowouter">
 							<div class="main_window">
-								<div id="fiddle" class="vlink">
-									<h2>フィドル講座</h2>
+								<div id="rhythm" class="vlink">
+									<h2>リズム講座</h2>
 								</div>
 								<div style="margin: 3em 0em;">
-									<h3>フィドル初級</h3>
-									<p>担当：権藤 英美里</p>
-									<p>アイリッシュでは定番楽器のフィドル。ヴァイオリンと同じ楽器ですが、少しポイントを変えたら、アイルランドの風景が見えるかも？楽器自体が初めての方はもちろん、楽器は少し弾けるけどアイリッシュは初めてという方もご参加いただける講座となっています。曲を覚えながら、装飾や弓使いも練習しましょう！</p>
+									<h3>ポルカクラス</h3>
+									<p>担当：hatao</p>
+									<p>今後ここに詳細が記載されます。</p>
 								</div>
 								<div style="margin: 2em 0em;">
-									<h3>フィドル上級</h3>
-									<p>Taka</p>
-									<p>Takaさんがフィドル中～上級者の方に役に立つような情報をがお話ししてくださいます！参加される方で、特に「こういうことを習いたい」、「こんなことを教えてほしい」など具体的にやってみたいことがあれば事前にお知らせください。</p>
+									<h3>ホーンパイプクラス</h3>
+									<p>担当：豊田耕三</p>
+									<p>今後ここに詳細が記載されます。</p>
 								</div>
-								<div id="tin" class="vlink">
-									<h2>ティンホイッスル講座</h2>
+								<div id="sing" class="vlink">
+									<h2>歌講座</h2>
 								</div>
 								<div style="margin: 3em 0em;">
-									<h3>ティンホイッスル初級</h3>
-									<p>担当：高梨 菖子</p>
-									<p>この講座では、基本的な装飾のつけ方、メロディーのバリエーションの考え方などを扱います！初心者またはさらにティンホイッスルについて深めたい人どちらも大歓迎です！</p>
+									<h3>歌クラス</h3>
+									<p>担当：権藤英美里</p>
+									<p>今後ここに詳細が記載されます。</p>
+								</div>
+								<div id="other" class="vlink">
+									<h2>打楽器</h2>
+								</div>
+								<div style="margin: 2em 0em;">
+									<h3>打楽器クラス</h3>
+									<p>石崎元弥</p>
+									<p>今後こちらに詳細が記載されます。</p>
 								</div>
 							</div>
 						</div>
