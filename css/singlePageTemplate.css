@@ -1807,7 +1807,7 @@ section .gallery .block {
 .toplogo {
     width: 4em;
     height: 4em;
-    margin-bottom: 5em;
+    margin-bottom: 5.5em;
 }
 .window_text {
     font-family: "MPLUS1 VariableFont wght";
